@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+body{
+    color:#666;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+div,
+td,
+th,
+p,
+ul,
+ol,
+input,
+textarea,
+select {
+    font-family: "Open Sans",sans-serif,Arial;
+    font-size: 14px;    
+}
+
+body {
+    background-color: #fbfbfb;
+    font-size: 16px
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 15px;
+    color: #5eac1a;
+    clear: both
+}
+
+h3 {
+    font-size: 15px;
+    color: #5eac1a;
+    padding-bottom: 5px
+}
+
+h4 {
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 18px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+div.top-menu-bar {
+    float: left;
+    background: #428d9a;
+    width: 100%;
+    display: inline-block;
+    height: 28px;
+    position: fixed;
+}
+
+div.top-menu-bar div {
+    float: right;
+    margin-right: 7%;
+}
+
+div.top-menu-bar a {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 2.2;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff
+}
+
+div.top-menu-bar a:hover {
+    background-color: #5eac1a;
+    text-decoration: none
+}
+
+div.main-menu-bar {
+    height: 104px;
+    width: 100%;
+    background: white;
+    float: left;
+    position: fixed;
+    top:28px;
+}
+
+div.main-menu-bar div.main-menus {
+    margin-top: 2%;
+    margin-right: 7%;
+    float: right;
+}
+
+div.main-menu-bar div.main-menus ul {
+    list-style: none;
+}
+
+div.main-menu-bar div.main-menus ul li {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+div.main-menu-bar div.main-menus ul li:hover {
+    text-decoration: underline;
+}
+
+div.main-menu-bar div.main-menus ul li a:after {
+    font-family: "ETmodules";
+    font-size: 16px;
+    font-weight: 800;
+    content: "3";
+}
+
+div.main-menu-bar div.main-logo {
+    float: left;
+    width: 17%;
+    height: 39%;
+    border: 1px solid gainsboro;
+    margin-left: 2%;
+    margin-top: 2.3%;
+    text-align: center;
+    background: #f4f5d2;
+}
+
+div.main-menu-bar div.main-logo span {
+    font-family: monospace;
+    font-size: 33px;
+}
+
+div.caraousel {
+    width: inherit;
+    height: 475px;
+    background: #428d9a;
+}
+
+div.features{
+    height: 520px;
+    padding: 54px 0;
+    margin: 0 11%;
+    float: left;
+}
+
+div.features div.features-row{
+    height:146px;
+    padding: 27px 0;
+}
+
+div.features div.features-row div{
+    width: 33.33%;
+    padding: 0 3%;
+    float: left;
+}
+
+div.features div.features-row div h4{
+    padding-bottom: 5px;
+}
+
+div.diff-section{
+    background: #27c9b8;
+    height: 272px;
+    padding: 54px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+div.stats{
+    width: 100%;
+    float: left;
+    height: 272px;
+    background: rgb(34,38,46);
+}
+
+div.stats div.stat{
+    float: left;
+    width: 25%;
+    padding: 3% 3%;
+    text-align: center;
+    height: inherit;
+}
+
+div.why-use{
+    width:100%;
+    height:474px;
+    float:left;
+    padding:3% 3%;
+}
+
+div.why-use-head{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+div.why-use-head h1{
+    color: #333;
+}
+
+div.why-use-body{
+    height:75%;
+    width:100%;
+}
+
+div.why-use-body div{
+    width:33.33%;
+    height:inherit;
+    float: left;
+    padding:0 3%;
+    text-align: center;
+}
+
+div.org-details{
+    width:100%;
+    height:400px;
+    float:left;
+    background: #5b5b5b;
+    padding: 3% 3%;
+}
+
+div.org-details div{
+    float: left;
+    width:20%;
+    height:inherit;
+    padding:0 3%;
+}
+
+div.org-details div h1{
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+div.org-details ul{
+    padding-top: 15px;
+    list-style: none;
+}
+
+div.copyright{
+    width:100%;
+    height:37px;
+    float: left;
+    background: #211f1f;
+    text-align: center;
+}
+
+div.copyright span, div.copyright a{
+    color:#bbb3b3;
+}
+
+div.copyright div{
+    margin-top: 10px;
+    text-align: center;
+}
